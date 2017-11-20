@@ -1,0 +1,43 @@
+             <!DOCTYPE html>
+<html>
+<head>
+
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="gallery">
+<h1>Christine</h1>
+
+	<div class="thumbnails">
+
+	<img src="images/1.jpg"  data-caption = "image one">
+	<img src="images/2.jpg"  data-caption = "image two">
+	<img src="images/3.jpg"  data-caption = "image three">
+	<img src="images/4.jpg"  data-caption = "image four">s
+	<img src="images/5.jpg"  data-caption = "image five">
+	<img src="images/6.jpg"  data-caption = "image six">
+	<img src="images/7.jpg"  data-caption = "image seven">
+	<img src="images/8.jpg"  data-caption = "image eight">	
+	
+	</div>
+
+	  <div class="viewer">
+
+		
+	  </div>
+</div>
+
+<script src="jquery.js"></script>
+<script src="app2.js"></script>
+
+<script>
+
+
+  $('.viewer').click(function(){
+ 	$('.thumbnails').toggle(1000);
+ })
+  </script>
+
+</body>
+</html>  
